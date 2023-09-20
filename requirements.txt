@@ -1,0 +1,9 @@
+torch
+torchvision
+wandb
+optuna
+coloredlogs
+munch
+numpy
+matplotlib
+scikit-learn

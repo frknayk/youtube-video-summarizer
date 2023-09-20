@@ -1,0 +1,32 @@
+--- Folder Structure ---
+.gitignore
+.pre-commit-config.yaml
+Dockerfile
+README.md
+app.py
+clean_req.py
+[data]
+[docs]
+environment.yml
+[package_name]
+    ├── [configs]
+        ├── base_config.yaml
+        └── hyperparameter.yaml
+    ├── dataset_loader.py
+    ├── evaluate.py
+    ├── hyperparameter_tuning.py
+    ├── [models]
+        └── model_1.py
+        └── model_2.py
+        └── model_3.py
+    ├── train.py
+    └── utils.py
+[pages_app]
+    ├── common.py
+    ├── page_inference.py
+    ├── page_training.py
+    └── plot_functions.py
+project_structure.txt
+requirements.txt
+setup.py
+train_all.py
