@@ -69,6 +69,10 @@ Follow the prompts to authorize wandb.
 
 ## Simple Usage Guide
 
+```bash
+uvicorn app:app --host 0.0.0.0 --port 8000 --reload
+```
+
 1. Prepare your dataset and organize it as needed.
 
 2. Modify the configuration parameters in config.yaml to customize your experiment settings.
@@ -85,67 +89,6 @@ python train.py --config config.yaml
 Access the wandb dashboard at https://wandb.ai/.
 Explore training metrics, logs, and visualizations in real-time.
 ```
-
-## Training Guide
-
-1. Data Preparation:
-
-- Organize your dataset into appropriate directories.
-- Implement data augmentation and transformation if needed in `dataset_loader.py`
-
-2. Configuration:
-
-- Modify the parameters in config.yaml to specify your model, data paths, batch size, and other hyperparameters.
-
-3. Training:
-
-- Use the `train.py` script to start training:
-
-```bash
-python package_name/train.py --config base_config.yaml
-```
-
-- Running all experiment configs together: Put all configuration files under `configs/` folder then call `run_all_experiments()` function from `train.py` script.
-
-```bash
-python package_name/train.py --run_all True
-```
-
-- Or you can directly run the training script in the root path after modifying the config files inside the script:
-
-```bash
-python train_all.py
-```
-
-4. Explore W&B UI to track and compare experiments
-
-```bash
-https://wandb.ai/YourWandbUserName/PROJECT_NAME
-```
-
-5. Evaluation:
-
-- Evaluate your trained model on a separate test dataset using the `evaluate.py` script.
-
-## Dataset
-
-The project relies on a dataset containing histology images. These images are organized into four main classes:
-
-```text
-IF classification insert classes here
-```
-
-The dataset is divided into `training`, `validation`, and `test` sets to facilitate model training and evaluation.
-Each class is represented by a dedicated folder containing DATA_SOURCE
-
-
-## Features
-
-- Organized directory structure for datasets, models, scripts, and more.
-- Configuration using YAML files for datasets and hyperparameters.
-- W&B integration for experiment tracking.
-- Seamless model architecture selection based on YAML configuration.
-- Conda environment setup for consistent dependencies.
 
 ## Directory Structure
 
