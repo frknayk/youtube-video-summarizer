@@ -1,6 +1,0 @@
-fastapi
-uvicorn
-youtube-transcript-api
-langchain
-transformers
-torch
