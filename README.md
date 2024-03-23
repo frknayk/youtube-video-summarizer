@@ -1,3 +1,11 @@
+---
+title: Podcast Summarizer
+tags:
+- text-summarization
+library_name: generic
+app_file: app.py
+---
+
 # Podcast Summarizer
 
 Podcast Summarizer is a Streamlit application that summarizes podcast episodes into concise text snippets, providing users with quick insights into the content of each episode.
