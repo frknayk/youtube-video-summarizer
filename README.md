@@ -2,20 +2,12 @@
 
 Podcast Summarizer is a Streamlit application that summarizes podcast episodes into concise text snippets, providing users with quick insights into the content of each episode.
 
-## Table of Contents
-
-- [Description](#description)
-- [Project Structure](#project-structure)
-- [Dependencies](#dependencies)
-- [Usage](#usage)
-- [Contributing](#contributing)
-- [License](#license)
 
 ## Description
 
 This project aims to provide a convenient way for users to get summaries of podcast episodes, helping them decide which episodes to listen to based on their interests.
 
-The project consists of a summarization module (`summarizer.py`) containing the logic for summarizing podcast episodes, and a Streamlit application (`app.py`) that provides a user-friendly interface for interacting with the summarization functionality.
+The project consists of a summarization module containing the logic for summarizing podcast episodes, and a Streamlit application (`app.py`) that provides a user-friendly interface for interacting with the summarization functionality.
 
 ## Dependencies
 
