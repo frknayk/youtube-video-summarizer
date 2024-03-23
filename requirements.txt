@@ -1,7 +1,6 @@
+torch
+transformers
+accelerate
 youtube_transcript_api
 streamlit
 streamlit_chat
-torch
-sentence_transformers
-pytube
-ctransformers
